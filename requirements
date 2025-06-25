@@ -1,0 +1,85 @@
+📱 Product Name
+Simple To-Do List App
+
+🎯 Purpose
+To provide users with a clean and efficient mobile app to manage daily tasks, supporting core features like adding, editing, completing, and deleting tasks. The app will be offline-first and lightweight.
+
+🧑‍💻 Target Platform
+React Native (Expo)
+
+Android & iOS
+
+📦 Features
+1. Task Management
+ Add Task (title, optional description, optional due date)
+
+ Edit Task
+
+ Delete Task
+
+ Mark as Completed / Incomplete
+
+ Sort tasks by:
+
+Status (Completed / Incomplete)
+
+Due Date (optional)
+
+2. User Interface
+ Home Screen: View all tasks
+
+ Add/Edit Task Screen or Modal
+
+ Completed Tasks can be collapsed or shown separately
+
+ Light/Dark mode (optional)
+
+3. Data Storage
+ Store tasks using AsyncStorage
+
+ Optional: Backup/export task data locally
+
+4. Notifications (Optional MVP Feature)
+ Local reminders for tasks with due dates
+
+ Daily "Review your tasks" reminder
+
+🔄 User Flows
+A. Add Task
+mathematica
+Copy
+Edit
+Home Screen → + Button → Add Task Screen → Enter Info → Save → Return to Home
+B. Edit Task
+arduino
+Copy
+Edit
+Home Screen → Tap Task → Edit Task Screen → Modify Info → Save
+C. Complete/Delete Task
+mathematica
+Copy
+Edit
+Home Screen → Tap Checkbox / Swipe Left → Complete/Delete
+🎨 Design Notes
+Simple UI with minimal text fields
+
+Use platform-consistent buttons (React Native Paper or custom)
+
+Animations/transitions optional for MVP
+
+🛠 Tech Stack
+Category	Tool/Library
+Framework	React Native + Expo
+Navigation	React Navigation
+Local Storage	AsyncStorage
+Styling	Tailwind (via NativeWind) or StyleSheet
+Notifications	Expo Notifications (optional)
+
+📈 Success Criteria
+Works offline
+
+Users can add, edit, and delete tasks
+
+Data persists between sessions
+
+No crashes or performance issues     
